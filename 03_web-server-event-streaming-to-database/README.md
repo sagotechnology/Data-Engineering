@@ -1,4 +1,4 @@
-# Project 3: Understanding User Behavior
+# Understanding User Behavior
 
 ## Scope
 
