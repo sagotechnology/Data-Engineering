@@ -1,4 +1,4 @@
-# Project 1: Query Project
+# Query Project
 
 
 - In the Query Project, you will get practice with SQL while learning about
