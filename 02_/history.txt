@@ -1,0 +1,845 @@
+    1  ls
+    2  cd project-1-samueljgomez
+    3  ls
+    4  git status
+    5  git remove
+    6  git
+    7  git reset
+    8  git status
+    9  git pull upstream master
+   10  git status
+   11  git rm .README.md.swp
+   12  git status
+   13  git rm .README.md.swp
+   14  git status
+   15  ls
+   16  git add .
+   17  git status
+   18  git rm .README.md.swp
+   19  git status
+   20  git reset
+   21  git status
+   22  ls
+   23  docker pull midsw205/base
+   24  ls
+   25  git status
+   26  clear
+   27  cd ..
+   28  ls
+   29  git status
+   30  pwd
+   31  ls
+   32  cd project-1-samueljgomez
+   33  ls
+   34  git status
+   35  git clean -fX
+   36  git status
+   37  ls
+   38  cd ..
+   39  ls
+   40  pwd
+   41  ls
+   42  mkd w205
+   43  mkdir w205
+   44  cd w205
+   45  man 
+   46  man docker
+   47  docker --help
+   48  clear
+   49  docker run help
+   50  docker run --help
+   51  clear
+   52  docker run -it --rm -v ~/w205:/w205 midsw205/base bash
+   53  ls
+   54  cd project-1-samueljgomez
+   55  cd ..
+   56  cd project-1-samueljgomez/
+   57  ls
+   58  git status
+   59  ls -lah
+   60  vim README.md
+   61  ls -lah
+   62  git status
+   63  rm .README.md.swp
+   64  git status
+   65  clear
+   66  git branch project1
+   67  git checkout project1
+   68  git branch
+   69  git commit README.md -m "first commit"
+   70  git config --global user.name "samueljgomez"
+   71  git commit README.md -m "first commit"
+   72  git push
+   73  git push --set-upstream origin project1
+   74  git status
+   75  git branch
+   76  git branch -D fourthbranch
+   77  git branch
+   78  git
+   79  git clone https://github.com/mids-w205-schioberg/course-content.git
+   80  git clone https://github.com/mids-w205-schioberg/assignment-1-samueljgomez.git
+   81  git
+   82  sl
+   83  which git
+   84  pwd
+   85  ls
+   86  git clone https://github.com/mids-w205-schioberg/project-1-samueljgomez.git
+   87  ls
+   88  cd project-1-samueljgomez
+   89  ls
+   90  vim README.md
+   91  cd project-1-samueljgomez
+   92  git status
+   93  ls
+   94  git branch fourthbranch
+   95  git status
+   96  git branch
+   97  git push
+   98  ls -lah
+   99  cd.git
+  100  cd .git
+  101  vim config
+  102  cd ..
+  103  ls'
+  104  q
+  105  pwd
+  106  ls
+  107  cd w205
+  108  docker run -it --rn w205/base
+  109  docker run -it --rm w205/base
+  110  docker run -it --rm -v ~/w205:w205/base bash
+  111  docker run -it --rm -v ~/w205: w205/base bash
+  112  docker run -it --rm -v ~/w205:/w205 midsw205/base bash
+  113  ls
+  114  docker
+  115  docker ps
+  116  clear
+  117  docker images
+  118  docker run -it --rm -v ~/w205:/w205 midsw205/base bash
+  119  docker run -it --rm -v ~/w205:/w205 midsw205/base bash which kafkacat
+  120  doker  run redis
+  121  docker run redis
+  122  docker ps
+  123  docker run -d redis
+  124  docker ps
+  125  docker stop proxy-agent
+  126  ls
+  127  cd w205
+  128  ls
+  129  man curl
+  130  curl -L -o annot_fpid.json https://goo.gl/qWiu7d
+  131  curl -L -o lp_data.csv https://goo.gl/FDFPYB
+  132  ls -lah
+  133  head lp_data.csv
+  134  tail lp_data.csv
+  135  head -n 2 lp_data.csv 
+  136  cat lp_data.csv 
+  137  cat lp_data.csv | sort -m
+  138  cat lp_data.csv | sort -man
+  139  cat lp_data.csv | sort -m
+  140  ls
+  141  bq query --use legacy_sql=false 'SELECT count(*) FROM `bigquery-public-data.san_franciso.bikeshare_status`'
+  142  bq query --use_legacy_sql=false 'SELECT count(*) FROM `bigquery-public-data.san_franciso.bikeshare_status`'
+  143  bq query --use_legacy_sql=false 'SELECT count(*) FROM `bigquery-public-data:san_franciso.bikeshare_status`'
+  144  bq query --use_legacy_sql=false 'SELECT count(*) FROM `bigquery-public-data:san_francisco.bikeshare_status`'
+  145  bq query --use_legacy_sql=false 'SELECT count(*) FROM `bigquery-public-data.san_francisco.bikeshare_status`'
+  146  ls
+  147  bq query --use_legacy_sql=false 'SELECT count(*) FROM `bigquery-public-data.san_francisco.bikeshare_status`'
+  148  tail lp_data.csv
+  149  cat lp_data.csv | sort -m
+  150  cat lp_data.csv | sort
+  151  man
+  152  yes
+  153  q
+  154  `
+  155  fjkjdfkjlfdkjldkflkdlfjkl;dsa;
+  156  ls
+  157  cd w205
+  158  sudo apt update
+  159  sudo apt install docker-compose
+  160  clear
+  161  mkdir redis-standalone
+  162  ls
+  163  cd redis-standalone
+  164  cp ../course-content/05-Storing-Data-II/example-0-docker-compose.yml docker-compose.yml
+  165  vim docker-compose.yml
+  166  docker run redis
+  167  docker ps
+  168  docker-compose up -d 
+  169  docker-compose logs redis
+  170  docker compose ps
+  171  docker-compose ps
+  172  pip install redis
+  173  ipython
+  174  docker-compose down
+  175  docker-compose ps
+  176  mkdir redis-cluster/
+  177  cd redis-cluster
+  178  docker-compose exec mids bash
+  179  docker-compose down
+  180  cd
+  181  cd w205
+  182  docker ps
+  183  clear
+  184  mkdir jupyter
+  185  cd jupyter
+  186  cd ..
+  187  ls
+  188  cd course-content/
+  189  ls
+  190  cd..
+  191  cd ..
+  192  cd jupyter
+  193  cp ../course-content/05-Storing-Data-II/example-2-docker-compose.yml docker-compose.yml
+  194  cd ..
+  195  ls
+  196  mkdir jupyternotebook
+  197  ls
+  198  rmdir jupyter
+  199  cd jupyter
+  200  ls
+  201  cd ..
+  202  ls
+  203  cd project_01/
+  204  ls
+  205  cd ..
+  206  cd assignment-1-samueljgomez/
+  207  git branch assignment
+  208  ls
+  209  git checkout assignment
+  210  git checkout project1
+  211  cd ..
+  212  cd assignment-1-samueljgomez/
+  213  ls
+  214  cat(README.md)
+  215  pip install grip
+  216  grip
+  217  ls
+  218  git fetch
+  219  git pull remote origin
+  220  git pull remote upstream
+  221  ls
+  222  cd
+  223  ls
+  224  cd w205
+  225  ls
+  226  cd project-1-samueljgomez/
+  227  ls
+  228  git pull remote upstream
+  229  clear
+  230  git branch
+  231  git pull upstream maste
+  232  git pull upstream master
+  233  git pull origin master
+  234  git branch
+  235  ipython notebook
+  236  clear
+  237  ls
+  238  cat README.md
+  239  clear
+  240  git branch -a
+  241  git fetch
+  242  cd
+  243  ls
+  244  cd w205
+  245  ls
+  246  $ git config --global user.name "samueljgomez"
+  247  git config --global user.password "$ath3rG@te"
+  248  cd project-1-samueljgomez/
+  249  git fetch
+  250  $ git config --global user.name "samueljgomez"
+  251  git config --global user.name "samueljgomez"
+  252  git config --global user.password "$ath3rG@te"
+  253  git fetch
+  254  git pull upstream master
+  255  git pull
+  256  ls
+  257  cat README.md
+  258  clear
+  259  ls
+  260  git pull
+  261  cat README.md
+  262  git branch
+  263  celar
+  264  clear
+  265  bq query --help
+  266  bq query --use_legacy_sql=false '
+  267  SELECT count(*)
+  268  FROM `bigquery-public-data.san_francisco.bikeshare_status`'
+  269  bq query --use_legacy_sql=false '
+  270  SELECT count(*) AS num_trips
+  271  FROM `bigquery-public-data.san_francisco.bikeshare_status`'
+  272  bq query --use_legacy_sql=false '
+  273  SELECT count(*) AS num_trips
+  274  FROM `bigquery-public-data.san_francisco.bikeshare_status`'
+  275  bq query --use_legacy_sql=false 'SELECT count(*) AS num_trips
+  276  FROM `bigquery-public-data.san_francisco.bikeshare_status`'
+  277  bq query --use_legacy_sql=false 'SELECT count(*) AS num_trips
+  278  FROM `bigquery-public-data.san_francisco.bikeshare_status`'
+  279  bq query --use_legacy_sql=false 
+  280  bq query --use_legacy_sql=false '
+  281  SELECT count(*) AS num_trips
+  282  FROM `bigquery-public-data.san_francisco.bikeshare_status`'
+  283  bq query --use_legacy_sql=false '
+  284  SELECT min(start_date), max(end_date)
+  285  FROM `bigquery-public-data.san_francisco.bikeshare_status`'
+  286  bq query --use_legacy_sql=false '
+  287  SELECT min(start_date), max(end_date)
+  288  FROM `bigquery-public-data.san_francisco.bikeshare_trips`'
+  289  bq query --use_legacy_sql=false '
+  290  SELECT min(start_date) AS min_start, max(end_date) AS max_end
+  291  FROM `bigquery-public-data.san_francisco.bikeshare_trips`'
+  292  bq query --use_legacy_sql=false '
+  293  SELECT count(*) AS num_trips
+  294  FROM `bigquery-public-data.san_francisco.bikeshare_trips`'
+  295  bq query --use_legacy_sql=false '
+  296  SELECT count(DISTINCT trip_id) AS num_trips
+  297  FROM `bigquery-public-data.san_francisco.bikeshare_trips`'
+  298  bq query --use_legacy_sql=false '
+  299  SELECT COUNT(DISTINCT trip_id) AS num_trips
+  300  FROM `bigquery-public-data.san_francisco.bikeshare_trips`'
+  301  bq query --use_legacy_sql=false '
+  302  SELECT min(start_date) AS min_start, max(end_date) AS max_end
+  303  FROM `bigquery-public-data.san_francisco.bikeshare_trips`'
+  304  bq query --use_legacy_sql=false '
+  305  SELECT min(start_date) AS min_start, max(end_date) AS max_end
+  306  FROM `bigquery-public-data.san_francisco.bikeshare_trips`'SELECT EXTRACT(HOUR FROM start_date) AS hour, 
+  307  FROM bigquery-public-data.san_francisco.bikeshare_trips
+  308  ORDER BY 1,2, start_date
+  309  LIMIT 1
+  310  bq query --use_legacy_sql=false '
+  311  SELECT EXTRACT(HOUR FROM start_date) AS hour, EXTRACT(MINUTE FROM start_date) AS minute, *
+  312  FROM `bigquery-public-data.san_francisco.bikeshare_trips`'
+  313  bq query --use_legacy_sql=false '
+  314  SELECT EXTRACT(HOUR FROM start_date) AS hour, EXTRACT(MINUTE FROM start_date) AS minute, *
+  315  FROM `bigquery-public-data.san_francisco.bikeshare_trips`' ORDER BY 1,2,start_date LIMIT 1
+  316  SELECT EXTRACT(HOUR FROM end_date) AS hour, 
+  317  FROM bigquery-public-data.san_francisco.bikeshare_trips
+  318  ORDER BY 1 DESC,2 DESC, end_date DESC
+  319  bq query --use_legacy_sql=false '
+  320  SELECT EXTRACT(HOUR FROM end_date) AS hour, EXTRACT(MINUTE FROM end_date) AS minute, *
+  321  FROM `bigquery-public-data.san_francisco.bikeshare_trips`' ORDER BY 1 DESC, 2 DESC ,end_date DESC LIMIT 1
+  322  bq query --use_legacy_sql=false '
+  323  SELECT COUNT(DISTINCT bike_number)
+  324  FROM `bigquery-public-data.san_francisco.bikeshare_trips`'
+  325  bq query --use_legacy_sql=false '
+  326  SELECT COUNT(DISTINCT bike_number) AS bike_count
+  327  FROM `bigquery-public-data.san_francisco.bikeshare_trips`'
+  328  SELECT *
+  329  FROM(
+  330  SELECT EXTRACT(year FROM start_date) AS date_year, 
+  331  FROM bigquery-public-data.san_francisco.bikeshare_trips
+  332  GROUP BY date_year, date_day_num, date_day
+  333  ORDER BY date_year, date_day_num
+  334  )
+  335  WHERE date_year = 2016
+  336  'SELECT *
+  337  FROM(
+  338  SELECT EXTRACT(year FROM start_date) AS date_year, 
+  339         EXTRACT(dayofweek FROM start_date) AS date_day_num,
+  340         FORMAT_DATETIME("%A", DATETIME(start_date)) AS date_day, 
+  341         round((sum(duration_sec)/174494966)*100, 2) AS total_duration_percent
+  342  FROM bigquery-public-data.san_francisco.bikeshare_trips
+  343  GROUP BY date_year, date_day_num, date_day
+  344  ORDER BY date_year, date_day_num
+  345  )
+  346  ABADDDWHERE date_year = 2016
+  347  bq query --use_legacy_sql=false '
+  348  SELECT *
+  349  FROM(
+  350  SELECT EXTRACSELECT EXTRACT(year FROM start_date) AS date_year, 
+  351  EXTRACT(dayofweek FROM start_date) AS date_day_num,
+  352  FORMAT_DATETIME("%A", DATETIME(start_date)) AS date_day,
+  353  round((sum(duration_sec)/174494966)*100, 2) AS total_duration_percent
+  354  FROM bigquery-public-data.san_francisco.bikeshare_trips
+  355  GROUP BY date_year, date_day_num, date_day
+  356  ORDER BY date_year, date_day_num
+  357  )
+  358  WHERE date_year = 2016
+  359  r
+  360  q
+  361  bq query --use_legacy_sql=false '
+  362  SELECT COUNT(DISTINCT bike_number) AS bike_count
+  363  FROM `bigquery-public-data.san_francisco.bikeshare_trips`'
+  364  bq query --use_legacy_sql=false '
+  365  SELECT *
+  366  FROM(  `bigquery-public-data.san_francisco.bikeshare_trips`'
+  367  bq query --use_legacy_sql=false '
+  368  SELECT *
+  369  FROM( SELECT EXTRACT(year FROM start_date) AS date_year, EXTRACT(dayofweek FROM start_date) AS date_day_num, `bigquery-public-data.san_francisco.bikeshare_trips`'
+  370  bq query --use_legacy_sql=false '
+  371  SELECT *
+  372  FROM( SELECT EXTRACT(year FROM start_date) AS date_year, EXTRACT(dayofweek FROM start_date) AS date_day_num, EXTRACT(dayofweek FROM start_date) AS date_day_num, FORMAT_DATETIME("%A", DATETIME(start_date)) AS date_day, round((sum(duration_sec)/174494966)*100, 2) AS total_duration_percent FROM `bigquery-public-data.san_francisco.bikeshare_trips`' GROUP BY date_year, date_day_num, date_day ORDER BY date_year, date_day_num) WHERE date_year = 2016
+  373  bq query --use_legacy_sql=false '
+  374  SELECT * FROM( SELECT EXTRACT(year FROM start_date) AS date_year, EXTRACT(dayofweek FROM start_date) AS date_day_num, EXTRACT(dayofweek FROM start_date) AS date_day_num, FORMAT_DATETIME("%A", DATETIME(start_date)) AS date_day, round((sum(duration_sec)/174494966)*100, 2) AS total_duration_percent FROM `bigquery-public-data.san_francisco.bikeshare_trips`' GROUP BY date_year, date_day_num, date_day ORDER BY date_year, date_day_num) WHERE date_year = 2016
+  375  bq query --use_legacy_sql=false '
+  376  SELECT COUNT(DISTINCT bike_number) AS bike_count
+  377  FROM `bigquery-public-data.san_francisco.bikeshare_trips`'
+  378  bq query --use_legacy_sql=false '
+  379  SELECT * FROM( SELECT EXTRACT(year FROM start_date) AS date_year, EXTRACT(dayofweek FROM start_date) AS date_day_num, FORMAT_DATETIME("%A", DATETIME(start_date)) AS date_day, round((sum(duration_sec)/174494966)*100, 2) AS total_duration_percent FROM `bigquery-public-data.san_francisco.bikeshare_trips`' GROUP BY date_year, date_day_num, date_day ORDER BY date_year, date_day_num) WHERE date_year = 2016
+  380  clear
+  381  bq query --use_legacy_sql=false '
+  382  SELECT COUNT(DISTINCT bike_number) AS bike_count
+  383  FROM `bigquery-public-data.san_francisco.bikeshare_trips`'
+  384  bq query --use_legacy_sql=false '
+  385  SELECT * FROM( SELECT EXTRACT(year FROM start_date) AS date_year, EXTRACT(dayofweek FROM start_date) AS date_day_num, FORMAT_DATETIME("%A", DATETIME(start_date)) AS date_day, round((sum(duration_sec)/174494966)*100, 2) AS total_duration_percent FROM `bigquery-public-data.san_francisco.bikeshare_trips` GROUP BY date_year, date_day_num, date_day ORDER BY date_year, date_day_num) WHERE date_year = 2016'
+  386  bq query --use_legacy_sql=false '
+  387  SELECT * FROM( SELECT EXTRACT(year FROM start_date) AS date_year, EXTRACT(dayofweek FROM start_date) AS date_day_num, FORMAT_DATETIME("%A", DATETIME(start_date)) AS date_day, round((sum(duration_sec)/325801931)*100, 2) AS total_duration_percent FROM `bigquery-public-data.san_francisco.bikeshare_trips` GROUP BY date_year, date_day_num, date_day ORDER BY date_year, date_day_num) WHERE date_year = 2015'
+  388  bq query --use_legacy_sql=false '
+  389  SELECT * FROM( SELECT EXTRACT(year FROM start_date) AS date_year, EXTRACT(dayofweek FROM start_date) AS date_day_num, FORMAT_DATETIME("%A", DATETIME(start_date)) AS date_day, round((sum(duration_sec)/369405109)*100, 2) AS total_duration_percent FROM `bigquery-public-data.san_francisco.bikeshare_trips` GROUP BY date_year, date_day_num, date_day ORDER BY date_year, date_day_num) WHERE date_year = 2014'
+  390  bq query --use_legacy_sql=false '
+  391  SELECT COUNT(DISTINCT bike_number) AS bike_count
+  392  FROM `bigquery-public-data.san_francisco.bikeshare_trips`'
+  393  clear
+  394  bq query --use_legacy_sql=false '
+  395  SELECT SUM(CASE WHEN EXTRACT(HOUR FROM start_date) IN (5,6,7,8,9,10,11) THEN 1 ELSE 0 END) AS morning_trips,
+  396  FROM `bigquery-public-data.san_francisco.bikeshare_trips`'
+  397  bq query --use_legacy_sql=false '
+  398  SELECT SUM(CASE WHEN EXTRACT(HOUR FROM start_date) IN (5,6,7,8,9,10,11) THEN 1 ELSE 0 END) AS morning_trips,
+  399  SUM(CASE WHEN EXTRACT(HOUR FROM start_date) IN (12,13,14,15,16,17) THEN 1 ELSE 0 END) AS afternoon_trips,'
+  400  bq query --use_legacy_sql=false '
+  401  SELECT SUM(CASE WHEN EXTRACT(HOUR FROM start_date) IN (5,6,7,8,9,10,11) THEN 1 ELSE 0 END) AS morning_trips,
+  402  SUM(CASE WHEN EXTRACT(HOUR FROM start_date) IN (12,13,14,15,16,17) THEN 1 ELSE 0 END) AS afternoon_trips,SUM(CASE WHEN EXTRACT(HOUR FROM start_date) IN (18,19,20,21) THEN 1 ELSE 0 END) AS evening_trips,'
+  403  bq query --use_legacy_sql=false '
+  404  SELECT SUM(CASE WHEN EXTRACT(HOUR FROM start_date) IN (5,6,7,8,9,10,11) THEN 1 ELSE 0 END) AS morning_trips,
+  405  SUM(CASE WHEN EXTRACT(HOUR FROM start_date) IN (12,13,14,15,16,17) THEN 1 ELSE 0 END) AS afternoon_trips,SUM(CASE WHEN EXTRACT(HOUR FROM start_date) IN (18,19,20,21) THEN 1 ELSE 0 END) AS evening_trips,SUM(CASE WHEN EXTRACT (HOUR FROM start_date) IN (22,23,24,0,1,2,3,4) THEN 1 ELSE 0 END) AS night_trips FROM `bigquery-public-data.san_francisco.bikeshare_trips`'
+  406  bq query --use_legacy_sql=false '
+  407  SELECT SUM(CASE WHEN EXTRACT(HOUR FROM start_date) IN (5,6,7,8,9,10,11) THEN 1 ELSE 0 END) AS morning_trips,
+  408  SUM(CASE WHEN EXTRACT(HOUR FROM start_date) IN (12,13,14,15,16) THEN 1 ELSE 0 END) AS afternoon_trips,SUM(CASE WHEN EXTRACT(HOUR FROM start_date) IN (17,18,19,20) THEN 1 ELSE 0 END) AS evening_trips,SUM(CASE WHEN EXTRACT (HOUR FROM start_date) IN (21,22,23,0,1,2,3,4) THEN 1 ELSE 0 END) AS night_trips FROM `bigquery-public-data.san_francisco.bikeshare_trips`'
+  409  bq query --use_legacy_sql=false '
+  410  SELECT SUM(CASE WHEN EXTRACT(HOUR FROM start_date) IN (5,6,7,8,9,10,11) THEN 1 ELSE 0 END) AS morning_trips,
+  411  SUM(CASE WHEN EXTRACT(HOUR FROM start_date) IN (12,13,14,15,16) THEN 1 ELSE 0 END) AS afternoon_trips,SUM(CASE WHEN EXTRACT(HOUR FROM start_date) IN (17,18,19,20) THEN 1 ELSE 0 END) AS evening_trips,SUM(CASE WHEN EXTRACT (HOUR FROM start_date) IN (21,22,23,0,1,2,3,4) THEN 1 ELSE 0 END) AS night_trips FROM `bigquery-public-data.san_francisco.bikeshare_trips`'
+  412  clear
+  413  ls
+  414  git fetch
+  415  git status
+  416  git add .
+  417  git commit -m"project_01 noteboo
+  418  git status
+  419  git commit -m"project01_notebook"
+  420  gi
+  421  git push
+  422  clear
+  423  git pull
+  424  git status
+  425  git push
+  426  git pull
+  427  git config --global user.name 'samueljgomez'
+  428  git config --global user.password '$ath3rG@te'
+  429  git pull
+  430  ls
+  431  cd w205
+  432  docker ps
+  433  ls
+  434  cd project-1-samueljgomez/
+  435  get fetch
+  436  git fetch
+  437  git pull 
+  438  ls
+  439  git branch
+  440  git push
+  441  git status
+  442  git commit -m""
+  443  git status
+  444  git add .
+  445  git status
+  446  git commit -m ""
+  447  git commit -m
+  448  git commit -m"first commit"
+  449  git push
+  450  ls
+  451  git fetch
+  452  git pull
+  453  ls
+  454  git push
+  455  ls
+  456  git branch
+  457  ls
+  458  git push
+  459  git status
+  460  git add .
+  461  git status
+  462  clear
+  463  git push
+  464  git status
+  465  git commit -m"adding v03"
+  466  git push
+  467  git status
+  468  git add .
+  469  git commit -m"v03 commit"
+  470  git push
+  471  ls
+  472  git status
+  473  git add .
+  474  git commit -m"v03 commit"
+  475  git push
+  476  git pull
+  477  ls
+  478  cd
+  479  ls
+  480  cd w205
+  481  ls
+  482  git status
+  483  cd project-1-samueljgomez/
+  484  git status
+  485  git add .
+  486  git commit -m"updating project_01"
+  487  git push
+  488  git status
+  489  git add .
+  490  git commit -m"updating project_01"
+  491  git push
+  492  clear
+  493  git status
+  494  git add .
+  495  git commit -m"updating project_01"
+  496  git push
+  497  git status
+  498  git add .
+  499  git commit -m"updating project_01"
+  500  git push
+  501  git status
+  502  git add .
+  503  git commit -m"updating project_01"
+  504  git push
+  505  clear
+  506  git add .
+  507  git commit -m"updating project_01"
+  508  git push
+  509  git status
+  510  git add .
+  511  git commit -m"updating project_01"
+  512  git push
+  513  git add .
+  514  git commit -m"updating project_01"
+  515  git push
+  516  git add .
+  517  git commit -m"updating project_01"
+  518  git push
+  519  clear
+  520  ls
+  521  mkdir drafts
+  522  ls
+  523  mv project_01_v01.ipynb drafts
+  524  ls
+  525  mv project_01_v02.ipynb drafts
+  526  mv project_01_v03.ipynb drafts
+  527  ls
+  528  ls example.ipynb drafts
+  529  mv  example.ipynb drafts
+  530  ls
+  531  git pull
+  532  ls
+  533  git status
+  534  git add .
+  535  git commit -m'organizing branch'
+  536  git push
+  537  ls
+  538  clear
+  539  git status
+  540  git pull
+  541  ls
+  542  git status
+  543  git add .
+  544  git commit -m"notebook update"
+  545  git push
+  546  SELECT count(DISTINCT trip_id) AS num_trips
+  547  SELECT count(DISTINCT trip_id) AS num_trips FROM `bigquery-public-data.san_francisco.bikeshare_trips`
+  548  bq query --use_legacy_sql=false 'SELECT count(DISTINCT trip_id) AS num_trips FROM `bigquery-public-data.san_francisco.bikeshare_trips`'
+  549  ls
+  550  cd w205
+  551  cd project-1-samueljgomez/
+  552  git status
+  553  git pull
+  554  git status
+  555  git add .
+  556  git commite -m"formating notebook"
+  557  git commit -m"formating notebook"
+  558  git push
+  559  clear
+  560  git add .
+  561  git commit -m"formating notebook"
+  562  git push
+  563  git add .
+  564  git commit -m"finalizing notebook"
+  565  git push
+  566  git add .
+  567  git commit -m"finalizing notebook"
+  568  git push
+  569  git add .
+  570  git commit -m"finalizing notebook"
+  571  git push
+  572  git add .
+  573  git commit -m"finalizing notebook"
+  574  git push
+  575  clear
+  576  git add .
+  577  git commit -m"finalizing notebook"
+  578  git push
+  579  git add .
+  580  git commit -m"finalizing notebook"
+  581  git push
+  582  pwd
+  583  ls
+  584  cd w205
+  585  docker run -it --rm midsw205/base bash
+  586  docker run -it --rm -v -/w205:/w205 midsw205/base bash
+  587  ls
+  588  cd ..
+  589  cd w205
+  590  docker run -it --rm -v ~/w205:/w205 midsw205/base bash
+  591  ls
+  592  docker run -it --rm -v ~/w205:/w205 midsw205/base bash
+  593  docker ps
+  594  docker run -it --rm -v ~/w205:/w205 midsw205/base bash
+  595  docker run -it --rm -v ~/w205:/w205 midsw205/base pwd
+  596  docker run -it --rm -v ~/w205:/w205 midsw205/base ls
+  597  clear
+  598  docker run -it --rm -v ~/w205:/w205 midsw205/base which kafkacat
+  599  which kafkacat
+  600  clear
+  601  pwd
+  602  docker run redis
+  603  docker run --help
+  604  clear
+  605  docker run -d redis
+  606  docker ps
+  607  pwd
+  608  cd w205
+  609  pwd
+  610  mkdir ~/w205/spark-with-kafka-and-hdfs
+  611  cd ~/w205/spark-with-kafka-and-hdfs
+  612  cp ~/w205/course-content//08-Querying-Data/docker-compose.yml .
+  613  docker-compose up -d
+  614  docker-compose exec kafka-topics --create --topic players
+  615  docker-compose exec kafka-topics --create --topic players --replication-factor 1docker-compose exec kafka kafka-topics --create --topic players --partitions 1 --replication-factor 1 --if-not-exists --zookeeper zookeeper:32181
+  616  docker-compose exec kafka kafka-topics --create --topic players --partitions 1 --replication-factor 1 --if-not-exists --zookeeper zookeeper:32181
+  617  clear
+  618  docker-compose exec mids bash -c "cat /w205/spark-with-kafka-and-hdfs/players.json | jq '.[]' -c | kafkacat -P -b kafka:29092 -t commits"
+  619  docker-compose exec spark pyspark
+  620  extracted_commits.show()
+  621  clear
+  622  extracted_commits.show()
+  623  docker-compose exec spark pyspark
+  624  cd w205
+  625  docker ps
+  626  cd
+  627  cd w205
+  628  cd project-2-samueljgomez/
+  629  ls
+  630  git branch
+  631  git status
+  632  git add .
+  633  git status
+  634  git commit -m"git commit"
+  635  git status
+  636  clear
+  637  git push .
+  638  git status
+  639  git branch
+  640  git staus
+  641  git status
+  642  git pull
+  643  git branch --set-upstream-to=origin/<branch> sjgomez
+  644  git branch --set-upstream-to=origin/ sjgomez
+  645  history > project-2-samueljgomez-history.txt
+  646  cd w205/project-2-samueljgomez/
+  647  history > project-2-samueljgomez-history.txt
+  648  vim docker-compose.yml 
+  649  history > project-2-samueljgomez-history.txt
+  650  curl -L -o assessment-attempts-20180128-121051-nested.json https://goo.gl/ME6hjp`
+  651  curl -L -o assessment-attempts-20180128-121051-nested.json https://goo.gl/ME6hjp
+  652  git clone https://github.com/mids-w205-schioberg/project-2-samueljgomez.git
+  653  cd w205/
+  654  ls
+  655  docker ps
+  656  cd project-2-samueljgomez/
+  657  history > project-2-samueljgomez-history.txt 
+  658  docker-compose exec mids jupyter notebook --no-browser --port 8890 --ip 0.0.0.0 --allow-root
+  659  docker ps
+  660  docker-compose down
+  661  docker ps
+  662  docker-compose down
+  663  cd
+  664  cd w205/
+  665  git clone https://github.com/mids-w205-schioberg/project-2-samueljgomez.git
+  666  cd project-2-samueljgomez/
+  667  ls
+  668  vim README.md 
+  669  git status
+  670  vim README.md 
+  671  git status
+  672  git add README.md
+  673  git branch
+  674  git branch sjgomez
+  675  git branch
+  676  git checkout sjgomez
+  677  git branch
+  678  git status
+  679  git commit . -m"first commit, changes to README.md"
+  680  git status
+  681  git push
+  682  git push --set-upstream origin sjgomez
+  683  git status
+  684  history > project-2-samueljgomez-history.txt
+  685  curl -L -o assessment-attempts-20180128-121051-nested.json https://goo.gl/ME6hjp
+  686  cp ../project-2-stack-v01/docker-compose.yml .
+  687  vim docker-compose.yml 
+  688  clear
+  689  docker-compose up -d
+  690  docker-compose logs -f kafka
+  691  clear
+  692  docker-compose down
+  693  curl -L -o github-example-large.json https://goo.gl/Y4MD58
+  694  git status
+  695  git add .
+  696  git commit -m"adding two json files, yml docker working file--stack is close to final, and history.txt" 
+  697  git push
+  698  docker-compose up -d
+  699  docker-compose exec kafka kafka-topics --create --topic foo --partitions 1 --replication-factor 1 --if-not-exists --zookeeper zookeeper:32181
+  700  docker-compose logs -f kafka
+  701  docker-compose down
+  702  docker-compose up -d
+  703  docker-compose exec kafka kafka-topics --create --topic foo --partitions 1 --replication-factor 1 --if-not-exists --zookeeper zookeeper:32181
+  704  docker-compose exec kafka kafka-topics --describe --topic foo --zookeeper zookeeper:32181
+  705  docker-compose exec mids bash -c "cat /w205/project-2-samueljgomez/github-example-large.json"
+  706  docker-compose exec mids bash -c "cat /w205/project-2-samueljgomez/github-example-large.json" | head
+  707  docker-compose exec mids bash -c "cat /w205/project-2-samueljgomez/github-example-large.json" | head -10
+  708  docker-compose exec mids bash -c "cat /w205/project-2-samueljgomez/github-example-large.json | head"
+  709  docker-compose exec mids bash -c "cat /w205/project-2-samueljgomez/github-example-large.json | head 100"
+  710  docker-compose exec mids bash -c "cat /w205/project-2-samueljgomez/github-example-large.json | head 20"
+  711  docker-compose exec mids bash -c "cat /w205/project-2-samueljgomez/github-example-large.json | head -20"
+  712  docker-compose exec mids bash -c "cat /w205/project-2-samueljgomez/github-example-large.json | head -100"
+  713  docker-compose exec mids bash -c "cat /w205/project-2-samueljgomez/github-example-large.json | jq '.'"
+  714  docker-compose exec mids bash -c "cat /w205/project-2-samueljgomez/github-example-large.json | jq '.[]' -c"
+  715  docker-compose exec mids bash -c "cat /w205/project-2-samueljgomez/github-example-large.json | jq '.[]' -c | head -10"
+  716  docker-compose exec mids bash -c "cat /w205/project-2-samueljgomez/github-example-large.json | jq '.' -c | head -10"
+  717  docker-compose exec mids bash -c "cat /w205/project-2-samueljgome.json | jq '.[]' -c | head -10"
+  718  docker-compose exec mids bash -c "cat /w205/project-2-samueljgomez/github-example-large.json | jq '.' | head -100"
+  719  docker-compose exec kafka kafka-topics --create --topic assess --partitions 1 --replication-factor 1 --if-not-exists --zookeeper zookeeper:32181
+  720  docker-compose exec mids bash -c "cat /w205/project-2-samueljgomez/assessment-attempts.json | jq '.' | head -10"
+  721  docker-compose exec mids bash -c "cat /w205/project-2-samueljgomez/assessment-attempts.json | jq '.' | head -100"
+  722  docker-compose exec mids bash -c "cat /w205/project-2-samueljgomez/assessment-attempts.json | jq '.' | head -200"
+  723  docker-compose exec mids bash -c "cat /w205/project-2-samueljgomez/assessment-attempts.json | jq '.' | head -500"
+  724  docker-compose exec mids bash -c "cat /w205/project-2-samueljgomez/assessment-attempts.json | jq '.[]' -c | head -500"
+  725  docker-compose exec mids bash -c "cat /w205/project-2-samueljgomez/assessment-attempts.json | jq '.[]' -c | head -10 | wc -l"
+  726  docker-compose exec mids bash -c "cat /w205/project-2-samueljgomez/assessment-attempts.json | jq '.[]' -c | kafkacat -P -b kafka:29092 -t assess"
+  727  docker-compose exec spark env PYSPARK_DRIVER_PYTHON=jupyter PYSPARK_DRIVER_PYTHON_OPTS='notebook --no-browser --port 8890 --ip 0.0.0.0 --allow-root --notebook-dir=/w205/project-2-samueljgomez' pyspark
+  728  docker-compose up -d
+  729  cd w205
+  730  cd project-2-samueljgomez/
+  731  ls
+  732  vim docker-compose
+  733  vim docker-compose.yml
+  734  cd w205
+  735  cd project-2-samueljgomez/
+  736  vim docker-compose
+  737  vim docker-compose.yml
+  738  cleat
+  739  clear
+  740  vim docker-compose.yml 
+  741  docker-compose up -d 
+  742  curl -L -o github-example-large.json https://goo.gl/Y4MD58
+  743  docker-compose exec kafka kafka-topics --create --topic foo --partitions 1 --replication-factor 1 --if-not-exists --zookeeper zookeeper:32181
+  744  docker-compose exec mids bash -c "cat /w205/github-example-large.json"
+  745  docker-compose exec mids bash -c "cat /w205/project-2-samueljgomez/github-example-large.json"
+  746  docker-compose exec mids bash -c "cat /w205/project-2-samueljgomez/github-example-large.json | head()"
+  747  docker-compose exec mids bash -c "cat /w205/project-2-samueljgomez/github-example-large.json.head()"
+  748  docker-compose exec mids bash -c "cat /w205/project-2-samueljgomez/github-example-large.json | jq'.'"
+  749  docker-compose exec mids bash -c "cat /w205/project-2-samueljgomez/github-example-large.json | jq '.'"
+  750  docker-compose exec mids bash -c "cat /w205/project-2-samueljgomez/github-example-large.json | jq '.'" | head()
+  751  import json
+  752  docker ps
+  753  first_message=json.loads(messages_as_strings.select('value').take(1)[0].value)
+  754  messages_as_strings.select('value').take(1)
+  755  docker-compose down
+  756  vim docker-compose.yml 
+  757  cd w205
+  758  cd project-2-samueljgomez/
+  759  history > history.txt
+  760  docker-compose up -d
+  761  docker-compose exec kafka kafka-topics --describe --topic assess --zookeeper zookeeper:32181
+  762  docker-compose exec kafka kafka-topics --describe --topic foo --zookeeper zookeeper:32181
+  763  docker-compose exec kafka kafka-topics --create --topic assessments --partitions 1 --replication-factor 1 --if-not-exists --zookeeper zookeeper:32181
+  764  docker-compose down
+  765  docker-compose up -d
+  766  docker-compose exec kafka kafka-topics --create --topic assessments --partitions 1 --replication-factor 1 --if-not-exists --zookeeper zookeeper:32181
+  767  docker ps
+  768  docker-compose down
+  769  docker ps
+  770  ls
+  771  cd w205
+  772  ls
+  773  cd flask-with-kafka/
+  774  cp ../course-content/10-Transforming-Streaming-Data/docker-compose.yml  .
+  775  cp ../course-content/10-Transforming-Streaming-Data/*.py .
+  776  docker-compose exec kafka kafka-topics --create --topic events --partitions 1 --replication-factor 1 --if-not-exists --zookeeper zookeeper:32181
+  777  docker-compose up -d
+  778  docker-compose exec kafka kafka-topics --create --topic events --partitions 1 --replication-factor 1 --if-not-exists --zookeeper zookeeper:32181
+  779  ls
+  780  docker-compose exec mids env FLASK_APP=/w205/flask-with-kafka-and-spark/game_api_with_json_events.py flask run --host 0.0.0.0
+  781  docker-compose exec mids curl http://localhost:5000/
+  782  docker-compose exec mids curl http://localhost:5000/purchase_a_sword
+  783  docker-compose down
+  784  cd
+  785  cd w205
+  786  mkdir flask-with-kafka-and-spark/
+  787  cd flask-with-kafka-and-spark/
+  788  cp ../course-content/10-Transforming-Streaming-Data/docker-compose.yml  .
+  789  cp ../course-content/10-Transforming-Streaming-Data/*.py .
+  790  docker-compose up -d
+  791  docker-compose exec kafka kafka-topics --create --topic events --partitions 1 --replication-factor 1 --if-not-exists --zookeeper zookeeper:32181
+  792  docker-compose exec mids curl http://localhost:5000/purchase_a_sword
+  793  clear
+  794  docker-compose exec mids curl http://localhost:5000/purchase_a_sword
+  795  docker-compose down
+  796  cd ..
+  797  cd project-2-samueljgomez/
+  798  docker-compose -d
+  799  clear
+  800  docker-compose -d
+  801  clear
+  802  docker-compose up -d
+  803  docker-compose exec mids jupyter notebook --no-browser --port 8890 --ip 0.0.0.0 --allow-root
+  804  docker-compose down
+  805  cd w205
+  806  cd project-2-samueljgomez/
+  807  docker-compose ps
+  808  docker-compose down
+  809  clear
+  810  docker ps
+  811  docker-compose up -d
+  812  docker-compose exec cloudera hadoop fs -ls /tmp/
+  813  docker-compose exec kafka kafka-topics --create --topic assessments --partitions 1 --replication-factor 1 --if-not-exists --zookeeper zookeeper:32181
+  814  docker-compose exec mids bash -c "cat /w205/project-2-data/assessment-attempts-nested.json | jq '.[]' -c | kafkacat -P -b kafka:29092 -t assessments"
+  815  docker-compose exec spark env PYSPARK_DRIVER_PYTHON=jupyter PYSPARK_DRIVER_PYTHON_OPTS='notebook --no-browser --port 8890 --ip 0.0.0.0 --allow-root --notebook-dir=/w205/' pyspark
+  816  clear
+  817  git pull
+  818  git add .
+  819  git commite -m"adding final notebook"
+  820  git commit -m"adding final notebook"
+  821  git push
+  822  history > samueljgomez-history.txt
+  823  history > history.txt
+  824  docker-compose exec mids bash -c "cat /w205/project-2-data/assessment-attempts-nested.json | jq '.[]' -c | kafkacat -P -b kafka:29092 -t assessments"
+  825  docker-compose exec mids bash -c "cat /w205/project-2-data/assessment-attempts-nested.json | jq '.[]' -c | wc -l"
+  826  docker-compose exec mids bash -c "cat /w205/project-2-data/assessment-attempts-nested.json | jq '.[]' -c | head -1
+  827  docker-compose exec mids bash -c "cat /w205/project-2-data/assessment-attempts-nested.json | jq '.[]' -c | head -1"
+  828  docker-compose exec mids bash -c "cat /w205/project-2-data/assessment-attempts-nested.json | jq '.' -c | head -1"
+  829  docker-compose exec mids bash -c "cat /w205/project-2-data/assessment-attempts-nested.json | jq '.[]' -c | head -1"
+  830  clear
+  831  docker-compose exec mids bash -c "cat /w205/project-2-data/assessment-attempts-nested.json | jq '.[]' -c | head -1"
+  832  docker-compose exec mids bash -c "cat /w205/project-2-data/assessment-attempts-nested.json | jq '.[]' | head -1"
+  833  docker-compose exec mids bash -c "cat /w205/project-2-data/assessment-attempts-nested.json | jq '.' | head -1"
+  834  docker-compose exec mids bash -c "cat /w205/project-2-data/assessment-attempts-nested.json | jq '.' | head -100"
+  835  docker-compose exec mids bash -c "cat /w205/project-2-data/assessment-attempts.json | jq '.' | head -200"
+  836  docker-compose exec mids bash -c "cat /w205/project-2-data/assessment-attempts-nested.json | jq '.' | head -200"
+  837  docker-compose exec mids bash -c "cat /w205/project-2-data/assessment-attempts-nested.json | jq '.[]' | head -1"
+  838  docker-compose exec mids bash -c "cat /w205/project-2-data/assessment-attempts-nested.json | jq '.[]' -c | head -1"
+  839  docker-compose exec mids bash -c "cat /w205/project-2-data/assessment-attempts-nested.json | jq '.[]' -c | wc -1"
+  840  docker-compose exec mids bash -c "cat /w205/project-2-data/assessment-attempts-nested.json | jq '.[]' -c | wc 1"
+  841  docker-compose exec mids bash -c "cat /w205/project-2-data/assessment-attempts-nested.json | jq '.[]' -c | wc -1"
+  842  docker-compose exec mids bash -c "cat /w205/project-2-data/assessment-attempts-nested.json | jq '.[]' -c | wc -l"
+  843  docker-compose exec mids bash -c "cat /w205/project-2-data/assessment-attempts-nested.json | jq '.[]' -c | head -1"
+  844  docker-compose exec mids bash -c "cat /w205/project-2-data/assessment-attempts-nested.json | jq '.' | head -100"
+  845  history > history.txt
