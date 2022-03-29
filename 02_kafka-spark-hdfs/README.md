@@ -1,5 +1,5 @@
-# Tracking User Activity
-&nbsp;  
+# Tracking User Activity  
+
 ## Project Description
 
 I work at an ed tech firm.  I've created a service that delivers assessments, and now several different customers (e.g., Pearson) want to publish their assessments on it.  In this project I prepare the assessment data for data scientists who work for these customers to run queries. 
