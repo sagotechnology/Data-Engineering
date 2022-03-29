@@ -1,10 +1,4 @@
 # Tracking User Activity
-## MIDS Summer 2020
-## School of Information
-## University of California, Berkeley
-
-### Author: Samuel Gomez
-### Date: July 12, 2020
 &nbsp;  
 ## Project Description
 
