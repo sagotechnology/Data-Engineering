@@ -1,4 +1,4 @@
-# Project 2: Tracking User Activity
+# Tracking User Activity
 ## MIDS Summer 2020
 ## School of Information
 ## University of California, Berkeley
